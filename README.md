@@ -1,11 +1,11 @@
-Implementation of Random Forest Algorithm for Weather Prediction
-AIM:
+# Implementation of Random Forest Algorithm for Weather Prediction
+# AIM:
 To write a program to predict daily temperature , PM2.5 pollution level and Energy based on environmental sensor data using Random Forest Algorithm.
 
-Problem Statement and Dataset
+# Problem Statement and Dataset
 Weather conditions such as temperature, PM2.5 pollution, and solar radiation fluctuate continuously due to environmental and human factors. Accurate short‑term prediction of these parameters is important for public health, energy planning, and environmental monitoring. The challenge is to build a machine learning model that can learn from historical sensor data, handle missing values, and capture time‑based patterns like daily cycles and recent trends to forecast the next readings reliably.
 The dataset used comes from a weather station at the EEE Block (weather-station-eee-block_2024_07_13.csv). It is a chronological time‑series containing sensor variables such as temperature (tem), PM2.5 (pm2_5), solar radiation (tsr), humidity (hum), pressure (pressure), wind speed (wind_speed), illumination (illumination), and CO₂ (co2). Since the data includes gaps due to sensor downtime, preprocessing steps like interpolation, sorting by time, and creation of lag features are required. These features, along with cyclical time encoding, form the basis for training Random Forest models to predict future weather conditions.
-Equipments Required:
+# Equipments Required:
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Jupyter notebook
 Algorithm
@@ -13,11 +13,11 @@ Load the weather dataset using pandas.
 Preprocess the data by handling missing values and sorting by time.
 Select features and create lag variables for temperature and PM2.5.
 Train Random Forest models to predict temperature and PM2.5 and save the models.
-Program:
+# Program:
 /*
 Program to implement the Random Forest Algorithm to predict daily temperature , PM2.5 pollution level and Energy based on environmental sensor data.
-Developed by: D R NETHRANJAN CHOWDARY
-RegisterNumber:  212225100031
+Developed by: J Nishanth
+RegisterNumber:  212225040284
 */
 import pandas as pd
 import numpy as np
