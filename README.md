@@ -125,27 +125,11 @@ for target in targets:
     pred_val = models[target].predict(latest_data)[0]
     print(f"Predicted {target_meta[target][0]}: {pred_val:.2f} {target_meta[target][1]}")
 Output:
-image image image
+<img width="1071" height="439" alt="564815124-3df1d10f-3fcc-404c-a099-a8fca65697c0" src="https://github.com/user-attachments/assets/a21f6f83-0e7d-4cf7-8466-09e07c79fc15" />
+<img width="1060" height="346" alt="564815538-50608a10-d516-4e2d-895a-4294de446dd5" src="https://github.com/user-attachments/assets/0e52b607-1219-4fdb-929a-3d597b3d97f9" />
+<img width="1048" height="437" alt="image" src="https://github.com/user-attachments/assets/cd58a5b1-5bec-4e03-8126-adc269e59e82" />
+
 Result:
 Thus, a python program to predict daily temperature, PM2.5 pollution level and Energy based on environmental sensor data using Random Forest Algorithm has completed successfully.
 
-About
-No description, website, or topics provided.
-Resources
- Readme
-License
- BSD-3-Clause license
- Activity
-Stars
- 0 stars
-Watchers
- 0 watching
-Forks
- 0 forks
-Report repository
-Releases
-No releases published
-Packages
-No packages published
-Contributors
-No contributors
+
